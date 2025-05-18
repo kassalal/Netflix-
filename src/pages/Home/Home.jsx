@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
-import Banner from "../../Components/Banner/Banner";
+import Banner from "../../components/Banner/Banner.jsx";
 import RowList from "../../Components/Rows/RowList/RowList";
 function Home() {
   return (
         <div>
       <Header />
-      <Banner />
+      <Banner/>
       <RowList />
       <Footer />
       
@@ -16,3 +16,4 @@ function Home() {
 }
 
 export default Home;
+
