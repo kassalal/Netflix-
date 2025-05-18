@@ -15,7 +15,7 @@ function Header() {
           <div className="header-left">
             <ul>
               <li>
-                <img src={logo} alt="netflix logo" />
+                <img src={logo} className="myLogo" alt="netflix logo" />
               </li>
               <li>Netflix</li>
               <li>Home</li>
