@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from "../../components/Header/Header";
-import Footer from '../../components/Footer/Footer';
-import Banner from "../../components/Banner/Banner.jsx";
+import Banner from "../../components/Banner/Banner";
 import RowList from "../../Components/Rows/RowList/RowList";
+import Footer from "../../components/Footer/Footer";
 function Home() {
   return (
         <div>
@@ -14,6 +14,5 @@ function Home() {
         </div>
   )
 }
-
 export default Home;
 
