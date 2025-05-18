@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
-import Banner from "../../Components/Banner/Banner";
+import Banner from "../../Components/Banner/Banner.jsx";
 import RowList from "../../Components/Rows/RowList/RowList";
 function Home() {
   return (
